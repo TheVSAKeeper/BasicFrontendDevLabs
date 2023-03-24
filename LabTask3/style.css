@@ -1,3 +1,7 @@
+button {
+    border-width: 0;
+}
+
 .logo {
     position: absolute;
     left: 211px;
@@ -6,7 +10,7 @@
     height: 37px;
 }
 
-.UpperRightMenu {
+.upper-menu {
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -18,7 +22,7 @@
     top: 50.5px;
 }
 
-.Hover {
+.hover {
     border-radius: 4px;
     background-color: rgb(100, 58, 121);
     position: absolute;
@@ -28,7 +32,7 @@
     height: 32px;
 }
 
-.WelcomeText {
+.welcome-text {
     font-size: 26px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(247, 243, 234);
@@ -43,7 +47,7 @@
     top: 250.294px;
 }
 
-.WelcomeButtonText {
+.work-with-us {
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -56,19 +60,9 @@
     position: center;
 }
 
-.Shape_35 {
-    background-color: rgb(0, 0, 0);
-    opacity: 0.149;
-    position: absolute;
-    left: 574px;
-    top: 447px;
-    width: 294px;
-    height: 4px;
-}
-
-.Shape_34 {
+.work-with-us-button {
     border-radius: 4px;
-    background-color: rgb(235, 125, 75);
+    background: url("img/work-with-us-button.png");
     position: absolute;
     left: 574px;
     top: 381px;
@@ -76,7 +70,7 @@
     height: 70px;
 }
 
-.WelcomeBackground {
+.welcome-bg {
     background-color: rgb(135, 80, 156);
     position: absolute;
     left: 0;
@@ -85,7 +79,7 @@
     height: 596px;
 }
 
-.OUR_PORTFOLIO {
+.our-portfolio {
     font-size: 40px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -97,7 +91,7 @@
     top: 100px;
 }
 
-.PortfolioLine {
+.portfolio-line {
     background-color: rgb(229, 195, 127);
     position: absolute;
     left: 677px;
@@ -106,7 +100,7 @@
     height: 4px;
 }
 
-.PortfolioText {
+.portfolio-text {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -117,7 +111,7 @@
     top: 180px;
 }
 
-.ALL {
+.portfolio-all {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -128,7 +122,7 @@
     top: 270px;
 }
 
-.PortfolioAllBg {
+.portfolio-all-bg {
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -138,7 +132,7 @@
     height: 38px;
 }
 
-.WEB {
+.portfolio-web {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -149,7 +143,7 @@
     top: 270px;
 }
 
-.PortfolioWebBg {
+.portfolio-web-bg {
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.078);
     position: absolute;
@@ -159,7 +153,7 @@
     height: 38px;
 }
 
-.APPS {
+.portfolio-apps {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -170,7 +164,7 @@
     top: 270px;
 }
 
-.PortfolioAppsBg {
+.portfolio-apps-bg {
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.078);
     position: absolute;
@@ -180,7 +174,7 @@
     height: 38px;
 }
 
-.ICONS {
+.portfolio-icons {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -191,7 +185,7 @@
     top: 270px;
 }
 
-.PortfolioIconsBg {
+.portfolio-icons-bg {
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.078);
     position: absolute;
@@ -201,8 +195,8 @@
     height: 38px;
 }
 
-._1 {
-    background-image: url("img/Isometric Perspective Mock-Up.png");
+.isometric-perspective-mock-up-bg {
+    background-image: url("img/isometric-perspective-mock-up.png");
     position: absolute;
     left: 170px;
     top: 380px;
@@ -210,7 +204,7 @@
     height: 311px;
 }
 
-.Isometric_Perspective_Mock_Up {
+.isometric-perspective-mock-up {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -221,8 +215,8 @@
     top: 340px;
 }
 
-._2 {
-    background-image: url("img/Time Zone App UI.png");
+.time-zone-app-ui-bg {
+    background-image: url("img/time-zone-app-ui.png");
     position: absolute;
     left: 731px;
     top: 380px;
@@ -230,7 +224,7 @@
     height: 311px;
 }
 
-.Time_Zone_App_UI {
+.time-zone-app-ui {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -242,8 +236,8 @@
     top: 340px;
 }
 
-._3 {
-    background-image: url("img/Viro Media Players UI.png");
+.viro-media-players-ui-bg {
+    background-image: url("img/viro-media-players-ui.png");
     position: absolute;
     left: 172px;
     top: 800px;
@@ -251,7 +245,7 @@
     height: 311px;
 }
 
-.Viro_Media_Players_UI_copy_2 {
+.viro-media-players-ui {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -263,8 +257,8 @@
     top: 340px;
 }
 
-._4 {
-    background-image: url("img/Blog Magazine Flat UI Kit.png");
+.blog-magazine-flat-ui-kit-bg {
+    background-image: url("img/blog-magazine-flat-ui-kit.png");
     position: absolute;
     left: 732px;
     top: 800px;
@@ -273,7 +267,7 @@
 
 }
 
-.Blog___Magazine_Flat_UI_Kit {
+.blog-magazine-flat-ui-kit {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(57, 57, 57);
@@ -286,7 +280,7 @@
 }
 
 
-.LOAD_MORE_PROJECTS {
+.load-more-projects-shadow {
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -299,19 +293,9 @@
     position: center;
 }
 
-.Shape_353 {
-    background-color: rgb(0, 0, 0);
-    opacity: 0.149;
-    position: absolute;
-    left: 574px;
-    top: 1320px;
-    width: 294px;
-    height: 4px;
-}
-
-.Shape_343 {
+.load-more-projects-shadow-button {
     border-radius: 4px;
-    background-color: rgb(23, 194, 164);
+    background: url("img/load-more-projects-shadow.png");
     position: absolute;
     left: 574px;
     top: 1250px;
@@ -319,7 +303,7 @@
     height: 70px;
 }
 
-.PortfolioBg {
+.portfolio-bg {
     background-color: rgb(255, 221, 153);
     position: absolute;
     left: 0;
@@ -328,7 +312,7 @@
     height: 1423px;
 }
 
-.GetInTouch {
+.get-in-touch {
     font-size: 40px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -339,7 +323,7 @@
     padding-top: 70px;
 }
 
-.Line {
+.get-in-touch-line {
     background-color: rgb(39, 58, 113);
     position: absolute;
     left: 677px;
@@ -348,7 +332,7 @@
     height: 4px;
 }
 
-.GetInTouchText {
+.get-in-touch-text {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -359,7 +343,7 @@
     top: 185px;
 }
 
-.Your_Email__ {
+.your-email {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -370,13 +354,13 @@
     top: 290px;
 }
 
-.Your_Email__:after {
+.your-email:after {
     position: absolute;
     content: " *";
     color: red;
 }
 
-.Base1 {
+.your-email-input {
     border-radius: 4px;
     background-color: rgb(39, 58, 113);
     position: absolute;
@@ -386,7 +370,7 @@
     height: 56px;
 }
 
-.Your_Name__ {
+.your-name {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -397,13 +381,13 @@
     top: 290px;
 }
 
-.Your_Name__:after {
+.your-name:after {
     position: absolute;
     content: " *";
     color: red;
 }
 
-.Base2 {
+.your-name-input {
     border-radius: 4px;
     background-color: rgb(39, 58, 113);
     position: absolute;
@@ -413,7 +397,7 @@
     height: 56px;
 }
 
-.Your_Message__ {
+.your-message {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -424,13 +408,13 @@
     top: 370px;
 }
 
-.Your_Message__:after {
+.your-message:after {
     position: absolute;
     content: " *";
     color: red;
 }
 
-.Base3 {
+.your-message-input {
     border-radius: 4px;
     background-color: rgb(39, 58, 113);
     position: absolute;
@@ -448,16 +432,7 @@ textarea:focus + label {
     display: none;
 }
 
-.Arrow {
-    background-color: rgb(93, 112, 169);
-    position: absolute;
-    left: 1131px;
-    top: 5785px;
-    width: 11px;
-    height: 11px;
-}
-
-.SEND_MESSAGE {
+.send-message {
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -470,19 +445,9 @@ textarea:focus + label {
     position: center;
 }
 
-.Shape_355 {
-    background-color: rgb(0, 0, 0);
-    opacity: 0.149;
-    position: absolute;
-    left: 574px;
-    top: 630px;
-    width: 294px;
-    height: 4px;
-}
-
-.Shape_345 {
+.send-message-button {
     border-radius: 4px;
-    background-color: rgb(48, 186, 231);
+    background: url("img/send-message-button.png");
     position: absolute;
     left: 574px;
     top: 630px;
@@ -490,7 +455,7 @@ textarea:focus + label {
     height: 70px;
 }
 
-.GetInTouchBg {
+.get-in-touch-bg {
     background-color: rgb(60, 84, 153);
     position: absolute;
     left: 0;
@@ -499,7 +464,7 @@ textarea:focus + label {
     height: 819px;
 }
 
-.SocialLinks {
+.social-links {
     font-size: 24px;
     font-family: 'Titillium Web', sans-serif;
     color: rgb(255, 255, 255);
@@ -512,7 +477,7 @@ textarea:focus + label {
     padding-top: 20px;
 }
 
-.SocialLinksBg {
+.social-links-bg {
     background-color: rgb(52, 75, 142);
     position: absolute;
     left: 0;
