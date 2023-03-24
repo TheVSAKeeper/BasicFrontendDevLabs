@@ -18,16 +18,6 @@
     border-radius: 12px;
 }
 
-.navbar .show_menu {
-    display: block;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    left: 0;
-    top: 0;
-    width: 15%;
-    height: 300px;
-    padding: 40px 20px 20px 40px;
-}
 
 /* LOGO */
 .logo {
@@ -65,14 +55,8 @@
     align-items: center;
     justify-content: center;
     margin: -29px;
-}
+    z-index: 1;
 
-.menu .show_menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: -29px;
 }
 
 .menu2 {
@@ -82,17 +66,42 @@
     justify-content: right;
     margin: -29px;
     padding-right: 88px;
+    z-index: 1;
+
 }
 
-.menu2 .show_menu {
+.navbar .show_menu {
+    display: flex;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: 235px;
+    padding: 55px 20px 20px 40px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.navbar .show_menu2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: right;
-    margin: -29px;
-    padding-right: 88px;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 120px;
+    padding: 40px 20px 20px 40px;
+    z-index: 1;
 }
 
+.navbar .show_menu span {
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+}
 
 /* Home */
 
@@ -105,15 +114,10 @@
     color: #000000;
 }
 
-.Home .show_menu {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
+.navbar .show_menu2 .Frame3 {
+    margin-right: 0;
+    margin-bottom: 20px;
 }
-
 
 /* Illustrations */
 
@@ -129,16 +133,6 @@
     color: #000000;
 }
 
-.Illustrations .show_menu {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-}
-
-
 /* Contact */
 
 .Contact {
@@ -153,17 +147,6 @@
 
     color: #000000;
 }
-
-.Contact .show_menu {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #000000;
-}
-
 
 /* Frame 3 */
 
@@ -190,6 +173,7 @@
     font-size: 15px;
     line-height: 19px;
     color: #4443D0;
+    z-index: 1;
 }
 
 
@@ -213,6 +197,7 @@
     font-size: 15px;
     line-height: 19px;
     color: #FFFFFF;
+    z-index: 1;
 }
 
 
@@ -244,6 +229,8 @@
     font-size: 15px;
     line-height: 19px;
     color: #FFFFFF;
+    z-index: 1;
+
 }
 
 .article {
@@ -257,7 +244,7 @@
 
 /* Make Your Business Stand out! */
 
-.art_head {
+.article-header {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -265,11 +252,12 @@
     line-height: 60px;
 
     color: #0A2541;
+    z-index: -1;
 }
 
 /* We provide the best illutration packs avaliable on the market */
 
-.art_body {
+.article-body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -290,7 +278,7 @@
     display: block;
 }
 
-.label {
+.email-label {
     display: block;
     margin-bottom: 7px;
 
@@ -302,10 +290,10 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
-.Email-box {
+.user-email {
     margin-bottom: 30px;
     display: block;
-    width: 475px;
+    width: 450px;
     height: 50px;
     border-radius: 10px;
     border-color: #2A92F9;
@@ -319,18 +307,20 @@
     color: #9F9F9F;
 }
 
-.Frame5 {
+.enter-email-frame {
     position: relative;
     margin-left: 120px;
     margin-top: 90px;
     text-align: left;
     color: #0A2541;
     display: block;
+    z-index: 1;
+
 }
 
 /* Saly-1 */
 
-.Saly {
+.saly-image {
     background: url(Saly-3.png);
     width: 897px;
     height: 818px;
@@ -346,7 +336,7 @@
 }
 
 @media screen and (max-width: 1360px) {
-    .Saly {
+    .saly-image {
         width: 882px;
         height: 862px;
         margin-top: -735px;
@@ -359,7 +349,7 @@
         margin-top: 190px;
     }
 
-    .Frame5 {
+    .enter-email-frame {
         margin-left: 70px;
         margin-top: 90px;
     }
@@ -394,7 +384,7 @@
         margin-right: 100px;
     }
 
-    .Saly {
+    .saly-image {
         width: 883px;
         height: 810px;
         margin-top: -205px;
@@ -407,7 +397,7 @@
         margin-top: 70px;
     }
 
-    .Frame5 {
+    .enter-email-frame {
         margin-left: 40px;
         margin-top: 10px;
     }
@@ -431,11 +421,10 @@
         margin-left: auto;
         margin-right: 20px;
     }
-
 }
 
 @media screen and (max-width: 575px) {
-    .Saly {
+    .saly-image {
         scale: 0.7;
         width: 873px;
         height: 814px;
