@@ -18,6 +18,17 @@
     border-radius: 12px;
 }
 
+.navbar .show_menu {
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 300px;
+    padding: 40px 20px 20px 40px;
+}
+
 /* LOGO */
 .logo {
     padding-top: 20px;
@@ -31,12 +42,34 @@
     color: #0A2541;
 }
 
+.menu_btn {
+    vertical-align: middle;
+    display: none;
+}
+
+.menu_btn_click {
+    background: url("menu.png");
+    border: none;
+    display: none;
+    margin-top: -37px;
+
+    height: 32px;
+    width: 32px;
+}
 
 /* Group 1 */
 
 .menu {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: -29px;
+}
+
+.menu .show_menu {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: -29px;
@@ -51,9 +84,28 @@
     padding-right: 88px;
 }
 
+.menu2 .show_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    margin: -29px;
+    padding-right: 88px;
+}
+
+
 /* Home */
 
 .Home {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.Home .show_menu {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -77,11 +129,32 @@
     color: #000000;
 }
 
+.Illustrations .show_menu {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
 
 /* Contact */
 
 .Contact {
+    margin-right: 20px;
 
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.Contact .show_menu {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -259,32 +332,20 @@
 
 .Saly {
     background: url(Saly-3.png);
-
-    width: 855px;
-    height: 810px;
-
+    width: 897px;
+    height: 818px;
     display: block;
-    margin-top: -750px;
-    margin-right: 300px;
+    margin-top: -700px;
+    margin-right: 100px;
     margin-left: auto;
-
     transform: rotate(-15.51deg);
 }
 
 @media screen and (max-width: 1441px) {
-    .Saly {
-        background: url(Saly-3.png);
-        width: 897px;
-        height: 818px;
-        display: block;
-        margin-top: -750px;
-        margin-right: 69px;
-        margin-left: auto;
-        transform: rotate(-15.51deg);
-    }
+
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1360px) {
     .Saly {
         width: 882px;
         height: 862px;
@@ -320,9 +381,13 @@
     .menu2 {
         padding-right: 58px;
     }
+
+    .Contact {
+        margin-right: 60px;
+    }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1040px) {
     .navbar {
         margin-top: 40px;
         margin-left: 40px;
@@ -346,9 +411,26 @@
         margin-left: 40px;
         margin-top: 10px;
     }
+
+    .Home {
+        margin-left: -120px;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+
+    .menu2 {
+        display: none;
+    }
+
+    .menu_btn_click {
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+    }
 
 }
 
