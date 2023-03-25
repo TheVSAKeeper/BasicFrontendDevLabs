@@ -1,0 +1,488 @@
+button {
+    border-width: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 211px;
+    top: 57px;
+    width: 118px;
+    height: 37px;
+}
+
+.upper-menu {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.125;
+    text-align: left;
+    position: absolute;
+    left: 827.937px;
+    top: 50.5px;
+}
+
+.hover {
+    border-radius: 4px;
+    background-color: rgb(100, 58, 121);
+    position: absolute;
+    left: 812px;
+    top: 60px;
+    width: 77px;
+    height: 32px;
+}
+
+.welcome-text {
+    font-size: 26px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(247, 243, 234);
+    font-weight: bold;
+    line-height: 1.158;
+    text-align: center;
+    -moz-transform: matrix(1.63235342628836, 0, 0, 1.63235342628836, 0, 0);
+    -webkit-transform: matrix(1.63235342628836, 0, 0, 1.63235342628836, 0, 0);
+    -ms-transform: matrix(1.63235342628836, 0, 0, 1.63235342628836, 0, 0);
+    position: absolute;
+    left: 452.5px;
+    top: 250.294px;
+}
+
+.work-with-us {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.455;
+    text-align: left;
+    -moz-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    -webkit-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    -ms-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    position: center;
+}
+
+.work-with-us-button {
+    border-radius: 4px;
+    background: url("img/work-with-us-button.png");
+    position: absolute;
+    left: 574px;
+    top: 381px;
+    width: 293px;
+    height: 70px;
+}
+
+.welcome-bg {
+    background-color: rgb(135, 80, 156);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1440px;
+    height: 596px;
+}
+
+.our-portfolio {
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    font-weight: bold;
+    line-height: 0.748;
+    text-align: center;
+    position: absolute;
+    left: 570px;
+    top: 100px;
+}
+
+.portfolio-line {
+    background-color: rgb(229, 195, 127);
+    position: absolute;
+    left: 677px;
+    top: 150px;
+    width: 87px;
+    height: 4px;
+}
+
+.portfolio-text {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    line-height: 1.444;
+    text-align: center;
+    position: absolute;
+    left: 468.844px;
+    top: 180px;
+}
+
+.portfolio-all {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    line-height: 1.083;
+    text-align: left;
+    position: absolute;
+    left: 557.937px;
+    top: 270px;
+}
+
+.portfolio-all-bg {
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 532px;
+    top: 260px;
+    width: 84px;
+    height: 38px;
+}
+
+.portfolio-web {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    line-height: 1.083;
+    text-align: left;
+    position: absolute;
+    left: 650.909px;
+    top: 270px;
+}
+
+.portfolio-web-bg {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.078);
+    position: absolute;
+    left: 626px;
+    top: 260px;
+    width: 84px;
+    height: 38px;
+}
+
+.portfolio-apps {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    line-height: 1.083;
+    text-align: left;
+    position: absolute;
+    left: 742.937px;
+    top: 270px;
+}
+
+.portfolio-apps-bg {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.078);
+    position: absolute;
+    left: 720px;
+    top: 260px;
+    width: 90px;
+    height: 38px;
+}
+
+.portfolio-icons {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    line-height: 1.083;
+    text-align: left;
+    position: absolute;
+    left: 839.844px;
+    top: 270px;
+}
+
+.portfolio-icons-bg {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.078);
+    position: absolute;
+    left: 820px;
+    top: 260px;
+    width: 90px;
+    height: 38px;
+}
+
+.isometric-perspective-mock-up-bg {
+    background-image: url("img/isometric-perspective-mock-up.png");
+    position: absolute;
+    left: 170px;
+    top: 380px;
+    width: 541px;
+    height: 311px;
+}
+
+.isometric-perspective-mock-up {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    text-transform: uppercase;
+    line-height: 1.083;
+    position: absolute;
+    left: 120px;
+    top: 340px;
+}
+
+.time-zone-app-ui-bg {
+    background-image: url("img/time-zone-app-ui.png");
+    position: absolute;
+    left: 731px;
+    top: 380px;
+    width: 541px;
+    height: 311px;
+}
+
+.time-zone-app-ui {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    text-transform: uppercase;
+    line-height: 1.083;
+    text-align: left;
+    position: absolute;
+    left: 190px;
+    top: 340px;
+}
+
+.viro-media-players-ui-bg {
+    background-image: url("img/viro-media-players-ui.png");
+    position: absolute;
+    left: 172px;
+    top: 800px;
+    width: 541px;
+    height: 311px;
+}
+
+.viro-media-players-ui {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    text-transform: uppercase;
+    line-height: 1.083;
+    text-align: left;
+    position: absolute;
+    left: 160px;
+    top: 340px;
+}
+
+.blog-magazine-flat-ui-kit-bg {
+    background-image: url("img/blog-magazine-flat-ui-kit.png");
+    position: absolute;
+    left: 732px;
+    top: 800px;
+    width: 541px;
+    height: 311px;
+
+}
+
+.blog-magazine-flat-ui-kit {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(57, 57, 57);
+    text-transform: uppercase;
+    line-height: 1.083;
+    text-align: left;
+    position: absolute;
+    left: 140px;
+    top: 340px;
+}
+
+
+.load-more-projects-shadow {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.455;
+    text-align: left;
+    -moz-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    -webkit-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    -ms-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    position: center;
+}
+
+.load-more-projects-shadow-button {
+    border-radius: 4px;
+    background: url("img/load-more-projects-shadow.png");
+    position: absolute;
+    left: 574px;
+    top: 1250px;
+    width: 293px;
+    height: 70px;
+}
+
+.portfolio-bg {
+    background-color: rgb(255, 221, 153);
+    position: absolute;
+    left: 0;
+    top: 596px;
+    width: 1440px;
+    height: 1423px;
+}
+
+.get-in-touch {
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.748;
+    text-align: center;
+    position: center;
+    padding-top: 70px;
+}
+
+.get-in-touch-line {
+    background-color: rgb(39, 58, 113);
+    position: absolute;
+    left: 677px;
+    top: 155px;
+    width: 87px;
+    height: 4px;
+}
+
+.get-in-touch-text {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.444;
+    text-align: center;
+    position: absolute;
+    left: 327.22px;
+    top: 185px;
+}
+
+.your-email {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    left: 740px;
+    top: 290px;
+}
+
+.your-email:after {
+    position: absolute;
+    content: " *";
+    color: red;
+}
+
+.your-email-input {
+    border-radius: 4px;
+    background-color: rgb(39, 58, 113);
+    position: absolute;
+    left: 720px;
+    top: 270px;
+    width: 414px;
+    height: 56px;
+}
+
+.your-name {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    left: 290px;
+    top: 290px;
+}
+
+.your-name:after {
+    position: absolute;
+    content: " *";
+    color: red;
+}
+
+.your-name-input {
+    border-radius: 4px;
+    background-color: rgb(39, 58, 113);
+    position: absolute;
+    left: 275px;
+    top: 270px;
+    width: 414px;
+    height: 56px;
+}
+
+.your-message {
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    position: absolute;
+    left: 290px;
+    top: 370px;
+}
+
+.your-message:after {
+    position: absolute;
+    content: " *";
+    color: red;
+}
+
+.your-message-input {
+    border-radius: 4px;
+    background-color: rgb(39, 58, 113);
+    position: absolute;
+    left: 275px;
+    top: 350px;
+    width: 860px;
+    height: 200px;
+}
+
+input:focus + label {
+    display: none;
+}
+
+textarea:focus + label {
+    display: none;
+}
+
+.send-message {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.455;
+    text-align: left;
+    -moz-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    -webkit-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    -ms-transform: matrix(1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
+    position: center;
+}
+
+.send-message-button {
+    border-radius: 4px;
+    background: url("img/send-message-button.png");
+    position: absolute;
+    left: 574px;
+    top: 630px;
+    width: 293px;
+    height: 70px;
+}
+
+.get-in-touch-bg {
+    background-color: rgb(60, 84, 153);
+    position: absolute;
+    left: 0;
+    top: 2019px;
+    width: 1440px;
+    height: 819px;
+}
+
+.social-links {
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.246;
+    text-align: center;
+    position: center;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+}
+
+.social-links-bg {
+    background-color: rgb(52, 75, 142);
+    position: absolute;
+    left: 0;
+    top: 2838px;
+    width: 1440px;
+    height: 113px;
+}
+
